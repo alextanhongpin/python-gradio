@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-gradio"
+version = "0.1.0"
+description = ""
+authors = ["alextanhongpin <alextan220990@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+gradio = "^4.7.1"
+jupyterlab = "^4.0.9"
+huggingface-hub = "^0.19.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
